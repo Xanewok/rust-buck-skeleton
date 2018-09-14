@@ -1,0 +1,15 @@
+rust_library(
+    name = "nested",
+    srcs = glob(["src/*.rs"]),
+    visibility=["PUBLIC"],
+    deps = [
+    ],
+)
+
+# By convention our infrastructure generates test rules automatically by default
+rust_test(
+    name = "nested-unittest",
+    srcs = glob(["src/*.rs"]),
+    deps = [
+    ],
+)

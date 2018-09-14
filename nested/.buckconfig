@@ -12,6 +12,3 @@
   # Link static libstd, etc, even for shared builds. This is mainly to prevent runtime dependencies
   # on the shared library path.
   prefer_static_libs = true
-
-[repositories]
-nested = nested
